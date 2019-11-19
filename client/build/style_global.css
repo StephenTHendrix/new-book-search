@@ -1,0 +1,40 @@
+body {
+    font-family: 'Cormorant', serif;
+}
+
+nav {
+    background-image: url("./images/bg_nav.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 7em;
+    text-shadow: 2px 2px black;
+}
+
+p, #bookInput, #btn-submit {
+    font-size: 1.5em;
+}
+
+.img-result {
+    object-fit: contain;
+}
+
+.btn-nav {
+    background-color: #463c99;
+    color: white;
+    font-size: 1.75em;
+    border-radius: .1em;
+    padding: .25em;
+    width: 5em;
+}
+
+.btn-nav:hover, #btn-submit:hover{
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+}
